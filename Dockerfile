@@ -10,4 +10,4 @@ RUN go build -o gophish
 
 EXPOSE 8080
 
-CMD ["./gophish"]
+CMD ["./gophish", "-config", "config.json"]
